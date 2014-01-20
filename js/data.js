@@ -144,6 +144,11 @@ var data = {
 			{ 
 				'title' : 'CatapultRPM',
 				'description' : 'To announce the merger of Catapult Marketing and RPM, we were tasked with developing an ad announcing the ideologies and capabilities of the new company. The idea that there is no long a traditional path to purchase gave forth to the idea that the shopper is always "on" and ready to purchase at a moments notice. By utilizing this idea, we were able to create an interactive cover and interior ad to Shopper Marketing.',
+				'image' : '/img/overlay/catapult/catapult_1a.jpg'
+			},
+			{ 
+				'title' : 'CatapultRPM',
+				'description' : 'To announce the merger of Catapult Marketing and RPM, we were tasked with developing an ad announcing the ideologies and capabilities of the new company. The idea that there is no long a traditional path to purchase gave forth to the idea that the shopper is always "on" and ready to purchase at a moments notice. By utilizing this idea, we were able to create an interactive cover and interior ad to Shopper Marketing.',
 				'image' : '/img/overlay/catapult/catapult_2.jpg'
 			},
 			{ 
@@ -186,7 +191,7 @@ var data = {
 				'image' : '/img/overlay/snuggle/snuggle_6.jpg'
 			}
 		],
-		'aspca' : [
+		'aspca2' : [
 			{ 
 				'title' : 'ASPCA',
 				'description' : 'A student project based on bringing awareness to the ASPCA and their low-income spay & neuter program which works to combat animal overpopulation. By registering your pet with the ASPCA app, you are able to make an appointment to spay or neuter your pet. The app will send you notifications when your pet is due for vaccinations and also serves as a network where you can connect with other pet owners in your area.',
@@ -232,6 +237,53 @@ var data = {
 		]
 	},
 	'instore' : {
+		'mbar' : [
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'Diageo came to us with a problem: they wanted to increase their spirit sales at Meijer and were unsure of how to do so. We proposed a total aisle reinvention within the BevAlc section of Meijer and thus, the mBar was born. By moving the shelving structures and using the pallets to our advantage, we successfully created a store within a store that brought to life the neighborhood bar everyone knows and loves. To serve as a spokesman, Max Meijer was created as a local bartender to better serve costumers needs. Living on POS items, he communicates pairings, recipes, and tricks of the trade to assist shoppers with their selection process.',
+				'image' : '/img/overlay/mbar/1.jpg'
+			},
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'Over head view of the spirit section. By using a floor graphic, end cap, and \'L\' shaped pallets we were able to design a defined entrance to the section.',
+				'image' : '/img/overlay/mbar/2.jpg'
+			},
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'By using rich wooden textures on the floor and shelving we aimed to create a relaxing an inviting atmosphere reminiscent of a neighborhood bar. The wooden pillar-like shelf blades not only define the section, but also help to bring to life the store within a store feel. The pallet wrap was made to look like a bar top surrounded by stools. The spirit section would have a defined area designated to "monthly specials" with a TV monitor overhead showcasing the brand on display.',
+				'image' : '/img/overlay/mbar/3.jpg'
+			},
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'mBar end cap sign.',
+				'image' : '/img/overlay/mbar/4.jpg'
+			},
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'Overhead view of the beer section.',
+				'image' : '/img/overlay/mbar/5.jpg'
+			},
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'This viewpoint also shows a defined entrance into the mBar. By continuing the wooden texture and bringing in the rich reds from the brick, the warm and inviting atmosphere is continuos throughout the mBar. The shelf blades are continued here for easy shopability and an in-fridge display holds specialty beers of the month.',
+				'image' : '/img/overlay/mbar/6.jpg'
+			},
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'Max Meijer comes to life on this shelf talker to speak about a knock out recipe for the upcoming game day.',
+				'image' : '/img/overlay/mbar/7.jpg'
+			},
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'Before we created the mBar, Meijer had placed their wine all throughout the BevAlc section. We decided the best move would be to consolidate all their win into the middle of the section which created the wine bar. Tented signs and shelf blades help distinguish the different sections and by opening up the shelving we made this area shopable from all angles.',
+				'image' : '/img/overlay/mbar/8.jpg'
+			},
+			{ 
+				'title' : 'Diageo Meijer Aisle Reinvention',
+				'description' : 'Coaster take-ones would be held in build in pockets on the shelf blades and would feature Max and his favorite recipes.',
+				'image' : '/img/overlay/mbar/9.jpg'
+			}
+		],
 		'crystallight' : [
 			{ 
 				'title' : 'Crystal Light Liquid',
@@ -250,6 +302,11 @@ var data = {
 			}
 		],
 		'soc2' : [
+			{ 
+				'title' : 'Seeds of Change',
+				'description' : 'Seeds of Change makes organic ready-to-heat rices and simmer sauces. The client challenged to push the boundaries and come up with an outrageous idea. To do this, we created a campaign of 420 reasons to put Seeds of Change on your plate. By alluding to a certain illegal substance in the headlines, we were able to showcase what makes this organic product unique while making people look twice and hopefully walk away with a knowing smile.',
+				'image' : '/img/overlay/soc/soc_1.jpg'
+			},
 			{ 
 				'title' : 'Seeds of Change',
 				'description' : 'By using floor graphics to continue the campaign around the store, we were able to drive people to shelf to purchase the product.',
@@ -271,6 +328,11 @@ var data = {
 				'title' : 'Johnnie Walker',
 				'description' : 'This Johnnie Walker display brings to life the House of Walker and embodies the elegance and sophistication whiskey is known for. Located in Total Wines & More, this display houses and easel card with a takeaway which encourages shoppers to sign up at the register for a Johnnie Walker tasting.',
 				'image' : '/img/overlay/jwalker/jw_1.jpg'
+			},
+			{ 
+				'title' : 'Johnnie Walker',
+				'description' : 'In-store at Total Wines & More.',
+				'image' : '/img/overlay/jwalker/jw_2.jpg'
 			}
 		],
 		'specialk' : [
@@ -375,6 +437,11 @@ var data = {
 				'title' : 'Poster-A-Week',
 				'description' : 'I try to challenge myself on a weekly basis to create a poster based off of any quote that moves me in some way.',
 				'image' : '/img/overlay/sidework/dfw.jpg'
+			},
+			{ 
+				'title' : 'Poster-A-Week',
+				'description' : 'I try to challenge myself on a weekly basis to create a poster based off of any quote that moves me in some way.',
+				'image' : '/img/overlay/sidework/jbutcher.jpg'
 			}
 		],
 		'kaboom' : [
@@ -382,6 +449,18 @@ var data = {
 				'title' : 'Kaboom',
 				'description' : 'Cannes Young Lions Entry',
 				'image' : '/img/overlay/sidework/kaboom.jpg'
+			}
+		],
+		'fakingfancy' : [
+			{ 
+				'title' : 'Faking Fancy',
+				'description' : 'As a design exercise, I do infographic-style posters illustrating everyday fashion tips and shortcuts in a series called Faking Fancy.',
+				'image' : '/img/overlay/sidework/boots.jpg'
+			},
+			{ 
+				'title' : 'Faking Fancy',
+				'description' : 'As a design exercise, I do infographic-style posters illustrating everyday fashion tips and shortcuts in a series called Faking Fancy.',
+				'image' : '/img/overlay/sidework/wrinkles.jpg'
 			}
 		]
 	}

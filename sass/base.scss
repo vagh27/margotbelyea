@@ -24,7 +24,7 @@ body { font-family:Arial,Helvetica; margin: 0 0 42px; -webkit-font-smoothing: an
 	}
 	.nav { width:70%; margin:0 auto 60px; height: 157px; @include opacity($test);
 		.header { background:url(/img/bg_header.jpg) no-repeat center 0 #c7d3d5; width:100%; border:5px solid #fff; border-top:0px solid red; height: 157px; @include shadow;
-			.logo { background:url(/img/logo_main.gif) no-repeat center bottom; display: block; margin:0 auto; padding:0px 0; width: 396px; height: 107px; cursor:pointer; position: relative; top: 25px;
+			.logo { background:url(/img/logo_main_sprite.png) no-repeat center bottom; display: block; margin:0 auto; padding:0px 0; width: 396px; height: 107px; cursor:pointer; position: relative; top: 25px;
 				&:hover { background-position: center top; }
 			}
 		}
@@ -86,11 +86,11 @@ body { font-family:Arial,Helvetica; margin: 0 0 42px; -webkit-font-smoothing: an
 					//digital
 					&[rel="wrigleys2"]{ background:url(/img/landing/wrigleys2.png) no-repeat center center #efefef; }
 					&[rel="snuggle"]{ background:url(/img/landing/snuggle.png) no-repeat center center #efefef; }
-					&[rel="aspca"]{ background:url(/img/landing/aspca.png) no-repeat center center #efefef; }
+					&[rel="aspca2"]{ background:url(/img/landing/aspca.png) no-repeat center center #efefef; }
 					&[rel="bongrain"]{ background:url(/img/landing/bongrain.png) no-repeat center center #efefef; }
 
 					//instore
-					&[rel="meijer"]{ background:url(/img/landing/meijer.jpg) no-repeat center center #efefef; }
+					&[rel="mbar"]{ background:url(/img/landing/meijer.jpg) no-repeat center center #efefef; }
 					&[rel="crystallight"]{ background:url(/img/landing/crystallight.jpg) no-repeat center center #efefef; }
 					&[rel="soc2"]{ background:url(/img/landing/soc2.jpg) no-repeat center center #efefef; }
 					&[rel="jwalker"]{ background:url(/img/landing/jwalker.jpg) no-repeat center center #efefef; }
@@ -104,6 +104,7 @@ body { font-family:Arial,Helvetica; margin: 0 0 42px; -webkit-font-smoothing: an
 					&[rel="bobbyqs"]{ background:url(/img/landing/bobbyqs.jpg) no-repeat center center #efefef; }
 					&[rel="quote"]{ background:url(/img/landing/quote.jpg) no-repeat center center #efefef; }
 					&[rel="kaboom"]{ background:url(/img/landing/kaboom.jpg) no-repeat center center #efefef; }
+					&[rel="fakingfancy"]{ background:url(/img/landing/fakingfancy.jpg) no-repeat center center #efefef; }
 
 					
 					div { display: table-cell; vertical-align: middle; @include linear-animation(); opacity:0;
@@ -120,7 +121,8 @@ body { font-family:Arial,Helvetica; margin: 0 0 42px; -webkit-font-smoothing: an
 			}
 		}
 	}
-	.top { position: fixed; left: 50%; margin-left: -550px; top:80%; opacity:0; @include linear-animation(); 
+	.top { position: fixed; left: 50%; margin-left: -540px; top:80%; opacity:0; @include linear-animation(); 
+		img { width: 75%; }
 		&.show { opacity:0.7;
 			&:hover { opacity:1; }
 		} 
