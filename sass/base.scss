@@ -146,6 +146,11 @@ body { font-family:Arial,Helvetica; margin: 0 0 42px; -webkit-font-smoothing: an
 				.prev { right:55px; background-position:0 -33px; }
 				.next { right:15px; }
 			}
+			&.auto { width: 100%; padding: 0; margin-top: 0; position: absolute; top: 0; left: 0;
+				.close { top: 5px; right: 5px; width: 30px; height: 30px; line-height: 30px !important; font-size:30px;  }
+				.img { min-height:0; height: auto; }
+				.content { position: absolute; bottom: 0; left: 0; opacity:0.95; }
+			}
 		}
 	}
 	.footer { width: 100%; background-color:#aaccd1; border-top:4px solid #70aab2; height:30px; position: fixed; bottom: 0; left: 0;  @include opacity($test);

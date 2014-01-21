@@ -52,6 +52,7 @@ var currentOverlay = 0,
 		$('.overlay').on('mouseenter','.close',function(){ TweenMax.to('.close', 0.25, { rotation:180, ease:Linear.easeNone }); });
 		$('.overlay').on('mouseleave','.close',function(){ TweenMax.to('.close ', 0.25, { rotation:360, ease:Linear.easeNone }); });
 		$('.overlay').on('click','.close',function(){ margot.clearOverlay(1); });
+		$('.overlay').on('click','.overlayContainer',function(e){ if($(e.toElement).hasClass('overlayContainer')) margot.clearOverlay(1); });
 
 		$('.header').on('click','.logo',function(){ 
 			TweenMax.to('.landingCont', 2, {top:"0px", ease:Power1.easeInOut});
@@ -72,7 +73,7 @@ var currentOverlay = 0,
 			else if(currentOverlay>length) currentOverlay = 0;
 
 			Handlebars.registerPartial("project", project);
-
+			//Handlebars.registerPartial("center", center);
 			Handlebars.registerHelper('if_eq', function() {
 			    if(length > 0){
 			        return '<div rel="'+project+'" class="prev"></div><div rel="'+project+'" class="next"></div>';
@@ -82,14 +83,20 @@ var currentOverlay = 0,
 	        var context = data[category][project][currentOverlay],
 	            html = template(context);
 
-	       	//console.log(context)
+
 
 	       	//clear current content and add new
 	        margot.clearOverlay(0);
 	        $('.overlay').append(html);
 
 	        //animate overlay in
-	        contHeight = $(window).height();
+	        $io = $('.itemOverlay'),
+	        contHeight = $(window).height(),
+	        itemHeight = $io.height() + 20;
+	        middleSpacing = (contHeight-itemHeight) / 2;
+	        if( middleSpacing > 10 ) $io.css({'margin-top':middleSpacing});
+	        else $io.addClass('auto');
+
 	        if(slide) TweenMax.to('.overlayContainer', 0.5, { height:contHeight });
 	        else TweenMax.to('.overlayContainer', 0, { height:contHeight });
 	        TweenMax.to('.menuCont', 0.5, { opacity:0 });
