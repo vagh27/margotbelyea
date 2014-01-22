@@ -1,6 +1,7 @@
 var currentOverlay = 0,
 	category = "",
 	contHeight = $(window).height(),
+	colors = ['lg','dg','lb','db'],
 	margot = {
 	init : function(){
 		//sticky nav
@@ -40,6 +41,12 @@ var currentOverlay = 0,
 			else $('.menu ul li a[href=#'+id+']').parent('li').prev('li').children('a').addClass('active');
 		});	
 
+		//assign bg colors
+		$('.item').each(function(){
+			j = Math.floor( Math.random() * ( colors.length ) );
+			$(this).addClass(colors[j]);
+		});
+
 		//trigger overlay 
 		$('.block').on('click','div.item[rel]:not(.disabled)',function(){ margot.overlay(this,1,1); });
 		$('.block').on('click','div.item.disabled[rel]',function(){ /*alert("Available upon request");*/ });
@@ -73,7 +80,7 @@ var currentOverlay = 0,
 			else if(currentOverlay>length) currentOverlay = 0;
 
 			Handlebars.registerPartial("project", project);
-			//Handlebars.registerPartial("center", center);
+
 			Handlebars.registerHelper('if_eq', function() {
 			    if(length > 0){
 			        return '<div rel="'+project+'" class="prev"></div><div rel="'+project+'" class="next"></div>';

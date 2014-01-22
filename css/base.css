@@ -225,7 +225,7 @@ body {
             background-position: center top; }
         body .block .content .item[rel] {
           cursor: pointer;
-          display: table; }
+          position: relative; }
           body .block .content .item[rel][rel="dove"] {
             background: url(/img/landing/dove.png) no-repeat center center white; }
           body .block .content .item[rel][rel="aspca"] {
@@ -243,9 +243,9 @@ body {
           body .block .content .item[rel][rel="wrigleys2"] {
             background: url(/img/landing/wrigleys2.png) no-repeat center center #efefef; }
           body .block .content .item[rel][rel="snuggle"] {
-            background: url(/img/landing/snuggle.png) no-repeat center center #efefef; }
+            background: url(/img/landing/snuggle.png) no-repeat center center #b4d3d8; }
           body .block .content .item[rel][rel="aspca2"] {
-            background: url(/img/landing/aspca.png) no-repeat center center #efefef; }
+            background: url(/img/landing/aspca.png) no-repeat center center #dce7e9; }
           body .block .content .item[rel][rel="bongrain"] {
             background: url(/img/landing/bongrain.png) no-repeat center center #efefef; }
           body .block .content .item[rel][rel="mbar"] {
@@ -275,7 +275,11 @@ body {
           body .block .content .item[rel][rel="fakingfancy"] {
             background: url(/img/landing/fakingfancy.jpg) no-repeat center center #efefef; }
           body .block .content .item[rel] div {
-            display: table-cell;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             vertical-align: middle;
             -webkit-transition: all 0.3s 0 linear;
             -moz-transition: all 0.3s 0 linear;
@@ -289,7 +293,8 @@ body {
               text-transform: uppercase;
               font: bold 14px Helvetica,Arial;
               margin: 0;
-              line-height: 18px !important; }
+              line-height: 20px !important;
+              padding: 35% 0px 0; }
               body .block .content .item[rel] div p span {
                 margin: 8px auto;
                 width: 50px;
@@ -453,7 +458,8 @@ body {
     body .nav {
       width: 100%; }
       body .nav .header {
-        border-top: 0px solid red; }
+        border: 0px solid red;
+        border-bottom: 5px solid #fff; }
         body .nav .header .logo {
           background: url(/img/logo_main.png) no-repeat center top;
           background-size: contain;
@@ -463,14 +469,25 @@ body {
   @media screen and (max-width: 927px) {
     body .block {
       background-image: none;
-      margin: 0px 0 0 0; }
+      margin: 0px 0 0 0;
+      padding-bottom: 50px; }
       body .block .content {
         width: 100%;
         margin-top: 1%; }
         body .block .content .item {
-          width: 31%;
+          width: 31.33%;
           float: left;
-          margin: 1%; }
+          margin: 1%;
+          height: 0;
+          padding-bottom: 31.33%; }
+          body .block .content .item.lb {
+            background-color: #dce7e9 !important; }
+          body .block .content .item.db {
+            background-color: #b4d3d8 !important; }
+          body .block .content .item.lg {
+            background-color: #f3f5f4 !important; }
+          body .block .content .item.dg {
+            background-color: #e1e5e6 !important; }
     body .overlayContainer .itemOverlay {
       width: 100%;
       padding: 0;
@@ -481,10 +498,7 @@ body {
         width: 30px;
         height: 30px;
         line-height: 30px !important;
-        font-size: 30px; }
-      body .overlayContainer .itemOverlay .img {
-        min-height: 0;
-        height: auto; } }
+        font-size: 30px; } }
   @media screen and (max-width: 720px) {
     body {
       margin-bottom: 0; }
@@ -492,7 +506,8 @@ body {
         width: 100%;
         margin: 0; }
       body .nav {
-        height: auto; }
+        height: auto;
+        margin-bottom: 0; }
         body .nav .header {
           height: auto; }
           body .nav .header .logo {
@@ -524,9 +539,47 @@ body {
             body .nav .menuCont .menu:hover {
               width: 100%;
               height: auto; }
+      body .block#home .item {
+        background-size: 60%; }
+        body .block#home .item:hover {
+          background-position: center center; }
       body .block .content .item {
         width: 48%;
-        background-size: contain !important; }
+        height: 0;
+        padding-bottom: 48%; }
+        body .block .content .item.print {
+          background: url(/img/landing/print.png) no-repeat center center;
+          background-size: 60%; }
+        body .block .content .item.digital {
+          background: url(/img/landing/digital.png) no-repeat center center;
+          background-size: 70%; }
+        body .block .content .item.instore {
+          background: url(/img/landing/instore.png) no-repeat center center;
+          background-size: 70%; }
+        body .block .content .item.sidework {
+          background: url(/img/landing/sidework.png) no-repeat center top;
+          background-size: 60%; }
+          body .block .content .item.sidework:hover {
+            background-position: center top !important; }
+        body .block .content .item.mobile-hide {
+          display: none; }
+        body .block .content .item[rel] {
+          background-size: cover !important; }
+          body .block .content .item[rel] div p {
+            font-size: 10px;
+            padding: 30% 0px 0; }
+          body .block .content .item[rel]:hover {
+            background-position: inherit !important; }
+      body .overlayContainer .itemOverlay.auto .content {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        opacity: 1; }
+        body .overlayContainer .itemOverlay.auto .content h1 {
+          font-size: 12px;
+          margin-bottom: 3px; }
+        body .overlayContainer .itemOverlay.auto .content p {
+          font-size: 10px; }
       body .footer {
         position: static;
         height: auto; }
