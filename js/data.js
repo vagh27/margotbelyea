@@ -234,6 +234,65 @@ var data = {
 				'description' : 'Tasked with designing a retro and whimsical look and feel for a new business pitch, this idea focuses on perfect pairings that Bongrain Cheeses simply love. By taking the quiz and sharing your perfect pairing online you are entered to win a trip for two to the city of love, Paris.',
 				'image' : '/img/overlay/cheese/cheese_4.jpg'
 			}
+		],
+		'haiti' : [
+			{ 
+				'title' : 'Haiti Bowl',
+				'description' : 'This fully responsive website is for Haiti Bowl 2014, an annual charity bowling event created to help raise money for supplies to be sent to Hospital Albert Schweitzer in Haiti. The retro-inspired type and color blocked design aesthetic draws upon the nostalgia of bowling, while also keeping it fun and modern.',
+				'image' : '/img/overlay/haiti/hb_1.jpg'
+			},
+			{ 
+				'title' : 'Haiti Bowl',
+				'description' : 'This fully responsive website is for Haiti Bowl 2014, an annual charity bowling event created to help raise money for supplies to be sent to Hospital Albert Schweitzer in Haiti. The retro-inspired type and color blocked design aesthetic draws upon the nostalgia of bowling, while also keeping it fun and modern.',
+				'image' : '/img/overlay/haiti/hb_2.jpg'
+			},
+			{ 
+				'title' : 'Haiti Bowl',
+				'description' : 'This fully responsive website is for Haiti Bowl 2014, an annual charity bowling event created to help raise money for supplies to be sent to Hospital Albert Schweitzer in Haiti. The retro-inspired type and color blocked design aesthetic draws upon the nostalgia of bowling, while also keeping it fun and modern.',
+				'image' : '/img/overlay/haiti/hb_6.jpg'
+			},
+			{ 
+				'title' : 'Haiti Bowl',
+				'description' : 'This fully responsive website is for Haiti Bowl 2014, an annual charity bowling event created to help raise money for supplies to be sent to Hospital Albert Schweitzer in Haiti. The retro-inspired type and color blocked design aesthetic draws upon the nostalgia of bowling, while also keeping it fun and modern.',
+				'image' : '/img/overlay/haiti/hb_3.jpg'
+			},
+			{ 
+				'title' : 'Haiti Bowl',
+				'description' : 'This fully responsive website is for Haiti Bowl 2014, an annual charity bowling event created to help raise money for supplies to be sent to Hospital Albert Schweitzer in Haiti. The retro-inspired type and color blocked design aesthetic draws upon the nostalgia of bowling, while also keeping it fun and modern.',
+				'image' : '/img/overlay/haiti/hb_4.jpg'
+			},
+			{ 
+				'title' : 'Haiti Bowl',
+				'description' : 'This fully responsive website is for Haiti Bowl 2014, an annual charity bowling event created to help raise money for supplies to be sent to Hospital Albert Schweitzer in Haiti. The retro-inspired type and color blocked design aesthetic draws upon the nostalgia of bowling, while also keeping it fun and modern.',
+				'image' : '/img/overlay/haiti/hb_5.jpg'
+			}
+		],
+		'twm' : [
+			{ 
+				'title' : 'Total Wines & More',
+				'description' : 'Diageo asked us to create a circular booklet for Total Wine & More that would help bring more awareness to their brands and increase the shoppability within the Total Wine & More stores. We went above the ask and created an extension of the Total Wine & More mobile site which evolved into a digital circular. This allowed shoppers to not only search for deals on their favorite Diageo brands, but also assisted them in locating deals through the interactive store map.',
+				'image' : '/img/overlay/twm/tw&m_1.jpg'
+			},
+			{ 
+				'title' : 'Total Wines & More',
+				'description' : 'Diageo asked us to create a circular booklet for Total Wine & More that would help bring more awareness to their brands and increase the shoppability within the Total Wine & More stores. We went above the ask and created an extension of the Total Wine & More mobile site which evolved into a digital circular. This allowed shoppers to not only search for deals on their favorite Diageo brands, but also assisted them in locating deals through the interactive store map.',
+				'image' : '/img/overlay/twm/tw&m_2.jpg'
+			},
+			{ 
+				'title' : 'Total Wines & More',
+				'description' : 'Diageo asked us to create a circular booklet for Total Wine & More that would help bring more awareness to their brands and increase the shoppability within the Total Wine & More stores. We went above the ask and created an extension of the Total Wine & More mobile site which evolved into a digital circular. This allowed shoppers to not only search for deals on their favorite Diageo brands, but also assisted them in locating deals through the interactive store map.',
+				'image' : '/img/overlay/twm/tw&m_3.jpg'
+			},
+			{ 
+				'title' : 'Total Wines & More',
+				'description' : 'Diageo asked us to create a circular booklet for Total Wine & More that would help bring more awareness to their brands and increase the shoppability within the Total Wine & More stores. We went above the ask and created an extension of the Total Wine & More mobile site which evolved into a digital circular. This allowed shoppers to not only search for deals on their favorite Diageo brands, but also assisted them in locating deals through the interactive store map.',
+				'image' : '/img/overlay/twm/tw&m_4.jpg'
+			},
+			{ 
+				'title' : 'Total Wines & More',
+				'description' : 'Diageo asked us to create a circular booklet for Total Wine & More that would help bring more awareness to their brands and increase the shoppability within the Total Wine & More stores. We went above the ask and created an extension of the Total Wine & More mobile site which evolved into a digital circular. This allowed shoppers to not only search for deals on their favorite Diageo brands, but also assisted them in locating deals through the interactive store map.',
+				'image' : '/img/overlay/twm/tw&m_5.jpg'
+			}
 		]
 	},
 	'instore' : {
